@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visite de Paris</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="header-title">Bienvenue à Paris</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" alt="Tour Eiffel" class="header-image">
+    </header>
+    <main>
+        <section id="language-selection">
+            <h2 id="language-title">Choisissez votre langue</h2>
+            <select id="language">
+                <option value="fr">Français</option>
+                <option value="en">Anglais</option>
+                <option value="es">Espagnol</option>
+                <option value="ar">Arabe</option>
+                <option value="ru">Russe</option>
+                <option value="zh">Chinois</option>
+            </select>
+            <button onclick="selectLanguage()">Suivant</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Visite de Paris. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
