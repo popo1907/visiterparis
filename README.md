@@ -1,3 +1,3 @@
-# visiterparis.github.io
+# visiterparis.github.io/index.html
 
 Website for NSI project
